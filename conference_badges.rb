@@ -13,3 +13,8 @@ def assign_rooms (array)
   n = 0
   array.each {|name| rooms_array.push("Hello, #{name}! You'll be assigned to room #{n += 1}!")}
 end
+
+def printer (array)
+  batch_badge_creator(array)
+  assign_rooms(array)
+end
